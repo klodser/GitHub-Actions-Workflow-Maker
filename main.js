@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div style=\"text-align:center\">\n  <h1>\n    Welcome to {{ title }}!\n  </h1>\n  <img width=\"300\" alt=\"Angular Logo\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\">\n</div>\n<h2>Here are some links to help you start: </h2>\n<ul>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://angular.io/tutorial\">Tour of Heroes</a></h2>\n  </li>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://angular.io/cli\">CLI Documentation</a></h2>\n  </li>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://blog.angular.io/\">Angular blog</a></h2>\n  </li>\n</ul>\n\n<router-outlet></router-outlet>\n"
+module.exports = "<nz-layout>\n  <nz-header>\n    <div class=\"logo\"></div>\n    <ul nz-menu nzTheme=\"dark\" nzMode=\"horizontal\">\n      <li nz-menu-item>nav 1</li>\n      <li nz-menu-item>nav 2</li>\n      <li nz-menu-item>nav 3</li>\n    </ul>\n  </nz-header>\n  <nz-content>\n    <nz-breadcrumb>\n      <nz-breadcrumb-item>Home</nz-breadcrumb-item>\n      <nz-breadcrumb-item>List</nz-breadcrumb-item>\n      <nz-breadcrumb-item>App</nz-breadcrumb-item>\n    </nz-breadcrumb>\n    <div class=\"inner-content\">\n      <router-outlet></router-outlet>\n    </div>\n  </nz-content>\n  <nz-footer>GitHub Actions Workflow Maker</nz-footer>\n</nz-layout>"
 
 /***/ }),
 
@@ -71,7 +71,7 @@ AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQubGVzcyJ9 */"
+module.exports = ".logo {\n  width: 120px;\n  height: 31px;\n  background: rgba(255, 255, 255, 0.2);\n  margin: 16px 24px 16px 0;\n  float: left;\n}\n[nz-menu] {\n  line-height: 64px;\n}\nnz-breadcrumb {\n  margin: 16px 0;\n}\nnz-content {\n  padding: 0 50px;\n}\nnz-footer {\n  text-align: center;\n}\n.inner-content {\n  background: #fff;\n  padding: 24px;\n  min-height: 280px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3J1bm5lci93b3JrL0dpdEh1Yi1BY3Rpb25zLVdvcmtmbG93LU1ha2VyL0dpdEh1Yi1BY3Rpb25zLVdvcmtmbG93LU1ha2VyL3NyYy9hcHAvYXBwLmNvbXBvbmVudC5sZXNzIiwic3JjL2FwcC9hcHAuY29tcG9uZW50Lmxlc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxZQUFBO0VBQ0EsWUFBQTtFQUNBLG9DQUFBO0VBQ0Esd0JBQUE7RUFDQSxXQUFBO0FDQ0o7QURFRTtFQUNFLGlCQUFBO0FDQUo7QURHRTtFQUNFLGNBQUE7QUNESjtBRElFO0VBQ0UsZUFBQTtBQ0ZKO0FES0U7RUFDRSxrQkFBQTtBQ0hKO0FETUU7RUFDRSxnQkFBQTtFQUNBLGFBQUE7RUFDQSxpQkFBQTtBQ0pKIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5sZXNzIiwic291cmNlc0NvbnRlbnQiOlsiLmxvZ28ge1xuICAgIHdpZHRoOiAxMjBweDtcbiAgICBoZWlnaHQ6IDMxcHg7XG4gICAgYmFja2dyb3VuZDogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjIpO1xuICAgIG1hcmdpbjogMTZweCAyNHB4IDE2cHggMDtcbiAgICBmbG9hdDogbGVmdDtcbiAgfVxuXG4gIFtuei1tZW51XSB7XG4gICAgbGluZS1oZWlnaHQ6IDY0cHg7XG4gIH1cblxuICBuei1icmVhZGNydW1iIHtcbiAgICBtYXJnaW46IDE2cHggMDtcbiAgfVxuXG4gIG56LWNvbnRlbnQge1xuICAgIHBhZGRpbmc6IDAgNTBweDtcbiAgfVxuXG4gIG56LWZvb3RlciB7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICB9XG5cbiAgLmlubmVyLWNvbnRlbnQge1xuICAgIGJhY2tncm91bmQ6ICNmZmY7XG4gICAgcGFkZGluZzogMjRweDtcbiAgICBtaW4taGVpZ2h0OiAyODBweDtcbiAgfSIsIi5sb2dvIHtcbiAgd2lkdGg6IDEyMHB4O1xuICBoZWlnaHQ6IDMxcHg7XG4gIGJhY2tncm91bmQ6IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC4yKTtcbiAgbWFyZ2luOiAxNnB4IDI0cHggMTZweCAwO1xuICBmbG9hdDogbGVmdDtcbn1cbltuei1tZW51XSB7XG4gIGxpbmUtaGVpZ2h0OiA2NHB4O1xufVxubnotYnJlYWRjcnVtYiB7XG4gIG1hcmdpbjogMTZweCAwO1xufVxubnotY29udGVudCB7XG4gIHBhZGRpbmc6IDAgNTBweDtcbn1cbm56LWZvb3RlciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbi5pbm5lci1jb250ZW50IHtcbiAgYmFja2dyb3VuZDogI2ZmZjtcbiAgcGFkZGluZzogMjRweDtcbiAgbWluLWhlaWdodDogMjgwcHg7XG59XG4iXX0= */"
 
 /***/ }),
 
@@ -119,21 +119,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
+/* harmony import */ var _angular_common_locales_en__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/locales/en */ "./node_modules/@angular/common/locales/en.js");
+/* harmony import */ var _angular_common_locales_en__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_angular_common_locales_en__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var ng_zorro_antd__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ng-zorro-antd */ "./node_modules/ng-zorro-antd/fesm2015/ng-zorro-antd.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 
 
 
 
+// tslint:disable-next-line: match-default-export-name
 
+
+
+
+Object(_angular_common__WEBPACK_IMPORTED_MODULE_3__["registerLocaleData"])(_angular_common_locales_en__WEBPACK_IMPORTED_MODULE_4___default.a);
 let AppModule = class AppModule {
 };
 AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]],
-        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]],
-        imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"]],
-        providers: [],
+        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]],
+        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]],
+        imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_6__["AppRoutingModule"], ng_zorro_antd__WEBPACK_IMPORTED_MODULE_5__["NgZorroAntdModule"]],
+        providers: [{ provide: ng_zorro_antd__WEBPACK_IMPORTED_MODULE_5__["NZ_I18N"], useValue: ng_zorro_antd__WEBPACK_IMPORTED_MODULE_5__["en_US"] }],
     })
 ], AppModule);
 
