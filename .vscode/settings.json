@@ -1,0 +1,25 @@
+{
+  "cSpell.ignorePaths": [
+    "**/package-lock.json",
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/**",
+    ".vscode",
+    "typings"
+  ],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true,
+    "source.organizeImports": false
+  },
+  "editor.rulers": [100],
+  "html.format.indentHandlebars": true,
+  "html.format.maxPreserveNewLines": 0,
+  "formatFiles.excludePattern": "**/node_modules,**/.vscode,**/dist/**,**/.chrome",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "stylelint.enable": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "cSpell.words": ["antd"]
+}

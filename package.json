@@ -1,6 +1,6 @@
 {
   "name": "ghawm",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -28,6 +28,10 @@
     "@angular/cli": "~8.2.1",
     "@angular/compiler-cli": "~8.2.0",
     "@angular/language-service": "~8.2.0",
+    "@lego/browserslist-config-internal": "^2.2.0",
+    "@lego/stylelint-config": "1.2.0",
+    "@lego/tslint-config-angular": "^2.2.0",
+    "@lego/prettier-config": "1.13.0",
     "@types/node": "~8.9.4",
     "@types/jasmine": "~3.3.8",
     "@types/jasminewd2": "~2.0.3",

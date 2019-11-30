@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "shinnn.stylelint",
+    "EditorConfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "zengxingxin.sort-js-object-keys",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "mikehanson.auto-barrel",
+    "angular.ng-template",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}
