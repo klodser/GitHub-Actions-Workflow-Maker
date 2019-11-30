@@ -7,11 +7,13 @@
     ".vscode",
     "typings"
   ],
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
+  "javascript.format.enable": false, // https://stackoverflow.com/questions/52102705/cant-get-correct-autoformat-on-save-in-visual-studio-code-with-eslint-and-prett
   "editor.codeActionsOnSave": {
     "source.fixAll.tslint": true,
     "source.organizeImports": false
   },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.rulers": [100],
   "html.format.indentHandlebars": true,
   "html.format.maxPreserveNewLines": 0,
@@ -21,5 +23,5 @@
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
-  "cSpell.words": ["antd"]
+  "cSpell.words": ["antd", "ghawm"]
 }
