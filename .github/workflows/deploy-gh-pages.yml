@@ -1,0 +1,25 @@
+name: Deploy to GH Pages
+
+on: [push]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: dependencies
+      run: |
+        npm ci
+    - name: build
+      run: |
+        npm run build
+      env:
+        CI: true
+    - name: deploy
+      if: success()
+      uses: crazy-max/ghaction-github-pages@v1
+      with:
+        target_branch: gh-pages
+        build_dir: dist/ghawm
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
